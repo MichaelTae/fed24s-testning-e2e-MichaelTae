@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
     <title>E2E-testing</title>
   </head>
   <body>
@@ -12,6 +13,9 @@
         <input type="text" id="searchText" placeholder="Skriv titel här" />
         <button type="submit" id="search">Sök</button>
       </form>
+      <div id="controls">
+        <button type="button" id="sortButton">Sortera efter år</button>
+      </div>
       <div id="movie-container"></div>
     </div>
     <script type="module" src="/src/ts/main.ts"></script>
